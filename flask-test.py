@@ -14,13 +14,13 @@ def send_api_request(path):
     
     # Definer eventuelle nødvendige parametre eller headers
 
-# hej
+
     # Sendeanmodning
     response = requests.get(url)
     
     # Hvis du vil sende en POST-anmodning, kan du bruge følgende linje i stedet:
     # response = requests.post(url, json=payload, headers=headers)
-
+# godadag
     # Håndter svar
     if response.status_code == 200:
         # Succes, behandle data
