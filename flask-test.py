@@ -14,7 +14,7 @@ def send_api_request(path):
     
     # Definer eventuelle nødvendige parametre eller headers
 
-
+# hej
     # Sendeanmodning
     response = requests.get(url)
     
